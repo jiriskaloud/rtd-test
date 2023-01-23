@@ -29,6 +29,8 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
+html_style = 'css/custom.css'
+
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
@@ -39,6 +41,6 @@ html_static_path = ['_static']
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
-html_css_files = [
-    'css/custom.css',
-]
+#html_css_files = [
+#    'css/custom.css',
+#]
